@@ -1,0 +1,79 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose readDependencies using package.json deps
+5 verbose install where, deps [ '/Users/Zero/Downloads/ardrone-autonomy',
+5 verbose install   [ 'sylvester', 'async', 'utest', 'urun', 'sinon' ] ]
+6 info preinstall ardrone-autonomy@0.1.2
+7 warn package.json sylvester@0.0.21 No repository field.
+8 verbose readDependencies using package.json deps
+9 verbose already installed skipping async@0.2.9 /Users/Zero/Downloads/ardrone-autonomy
+10 verbose already installed skipping utest@0.0.6 /Users/Zero/Downloads/ardrone-autonomy
+11 verbose already installed skipping urun@0.0.6 /Users/Zero/Downloads/ardrone-autonomy
+12 verbose already installed skipping sinon@1.4.2 /Users/Zero/Downloads/ardrone-autonomy
+13 verbose already installed skipping sylvester@0.0.21 /Users/Zero/Downloads/ardrone-autonomy
+14 silly resolved []
+15 info build /Users/Zero/Downloads/ardrone-autonomy
+16 verbose linkStuff [ false, false, false, '/Users/Zero/Downloads' ]
+17 info linkStuff ardrone-autonomy@0.1.2
+18 verbose linkBins ardrone-autonomy@0.1.2
+19 verbose linkMans ardrone-autonomy@0.1.2
+20 verbose rebuildBundles ardrone-autonomy@0.1.2
+21 verbose rebuildBundles [ '.bin',
+21 verbose rebuildBundles   'async',
+21 verbose rebuildBundles   'dateformat',
+21 verbose rebuildBundles   'opencv',
+21 verbose rebuildBundles   'sinon',
+21 verbose rebuildBundles   'sylvester',
+21 verbose rebuildBundles   'urun',
+21 verbose rebuildBundles   'utest' ]
+22 verbose rebuild bundle /Users/Zero/Downloads/ardrone-autonomy/node_modules/dateformat
+23 info build /Users/Zero/Downloads/ardrone-autonomy/node_modules/dateformat
+24 info preinstall dateformat@1.0.11
+25 verbose linkStuff [ false,
+25 verbose linkStuff   false,
+25 verbose linkStuff   false,
+25 verbose linkStuff   '/Users/Zero/Downloads/ardrone-autonomy/node_modules' ]
+26 info linkStuff dateformat@1.0.11
+27 verbose linkBins dateformat@1.0.11
+28 verbose link bins [ { dateformat: 'bin/cli.js' },
+28 verbose link bins   '/Users/Zero/Downloads/ardrone-autonomy/node_modules/.bin',
+28 verbose link bins   false ]
+29 verbose linkMans dateformat@1.0.11
+30 verbose rebuildBundles dateformat@1.0.11
+31 verbose rebuildBundles [ 'get-stdin', 'meow' ]
+32 info install dateformat@1.0.11
+33 info postinstall dateformat@1.0.11
+34 verbose rebuild bundle /Users/Zero/Downloads/ardrone-autonomy/node_modules/opencv
+35 info build /Users/Zero/Downloads/ardrone-autonomy/node_modules/opencv
+36 info preinstall opencv@1.0.0
+37 verbose linkStuff [ false,
+37 verbose linkStuff   false,
+37 verbose linkStuff   false,
+37 verbose linkStuff   '/Users/Zero/Downloads/ardrone-autonomy/node_modules' ]
+38 info linkStuff opencv@1.0.0
+39 verbose linkBins opencv@1.0.0
+40 verbose linkMans opencv@1.0.0
+41 verbose rebuildBundles opencv@1.0.0
+42 verbose rebuildBundles [ 'buffers', 'nan' ]
+43 info install opencv@1.0.0
+44 verbose unsafe-perm in lifecycle true
+45 info opencv@1.0.0 Failed to exec install script
+46 error opencv@1.0.0 install: `node-gyp rebuild`
+46 error Exit status 1
+47 error Failed at the opencv@1.0.0 install script.
+47 error This is most likely a problem with the opencv package,
+47 error not with npm itself.
+47 error Tell the author that this fails on your system:
+47 error     node-gyp rebuild
+47 error You can get their info via:
+47 error     npm owner ls opencv
+47 error There is likely additional logging output above.
+48 error System Darwin 14.0.0
+49 error command "node" "/usr/local/bin/npm" "install"
+50 error cwd /Users/Zero/Downloads/ardrone-autonomy
+51 error node -v v0.10.33
+52 error npm -v 1.4.28
+53 error code ELIFECYCLE
+54 verbose exit [ 1, true ]
